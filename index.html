@@ -1,102 +1,176 @@
-```html
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>您的姓名 - 个人主页</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        h2 {
-            color: #666;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        .contact-info {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 5px;
-        }
-    </style>
+<title>Yang Zhou's Homepage</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="Yang Zhou"> 
+<meta name="description" content="Yang Zhou's Homepage">
+<style>
+/* Simplified jemdoc-style CSS */
+html {
+  background-color: #eeeeee; 
+}
+
+body { 
+  font-family: Georgia, Helvetica, Arial, Verdana, sans-serif;
+  color: #000;
+  background-color: #ffffff; 
+  text-align: left;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 1050px;
+}
+
+#layout-content {
+	padding-top: 0.0em;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+a {
+	color: #224b8d;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px gray dotted;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    color: #224b8d;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    margin-top: 1em;
+    color: #527bbd;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td {
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+.title {
+    color: #527bbd;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    table {
+        display: block;
+    }
+    
+    td {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    
+    img {
+        max-width: 200px;
+    }
+}
+</style>
+
+<script src="publications.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <img src="your-photo.jpg" alt="您的照片" class="profile-img">
-            <h1>您的姓名</h1>
-            <p>您的职位/身份</p>
-        </div>
 
-        <div class="section">
-            <h2>个人简介</h2>
-            <p>在这里写您的个人简介，包括您的背景、专业领域等...</p>
-        </div>
+<div id="layout-content" style="margin-top:25px">
 
-        <div class="section">
-            <h2>教育经历</h2>
-            <ul>
-                <li><strong>博士学位</strong> - 大学名称，专业，年份</li>
-                <li><strong>硕士学位</strong> - 大学名称，专业，年份</li>
-                <li><strong>学士学位</strong> - 大学名称，专业，年份</li>
-            </ul>
-        </div>
+<table>
+	<tbody>
+		<tr>
+			<td width="75%">
+				<div id="toptitle">
+					<h1>Yang Zhou</h1>
+				</div>
 
-        <div class="section">
-            <h2>研究兴趣</h2>
-            <ul>
-                <li>研究方向一</li>
-                <li>研究方向二</li>
-                <li>研究方向三</li>
-            </ul>
-        </div>
+                <p>
+                    Zhejiang University<br/>
+                    <strong>Email:</strong> imzhouyang@zju.edu.cn<br/>
+					<br/>
+                    <a href="https://scholar.google.com/citations?user=OheVO4gAAAAJ&hl=en">[Google Scholar]</a> <a href="https://github.com/IANNXANG">[GitHub]</a><br/>
+			</p>
+			</td>
+			<td width="25%">
+				<img src="zhouyang.jpeg" width="80%" style="border-radius: 10px;"/>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-        <div class="section">
-            <h2>主要出版物</h2>
-            <ol>
-                <li>论文标题. <em>期刊名称</em>, 年份.</li>
-                <li>论文标题. <em>会议名称</em>, 年份.</li>
-                <li>论文标题. <em>期刊名称</em>, 年份.</li>
-            </ol>
-        </div>
+<h2>Biography</h2> 
 
-        <div class="section contact-info">
-            <h2>联系方式</h2>
-            <p><strong>邮箱：</strong> your.email@example.com</p>
-            <p><strong>机构：</strong> 您的工作单位</p>
-            <p><strong>地址：</strong> 您的地址</p>
-        </div>
-    </div>
+<p>
+I'm currently a master's degree candidate in the VIPA Group at Zhejiang University, under the guidance of Professor Ming-Li Song.
+</p>
+
+<p>
+I obtained my B.Eng. degree in 2024 from the College of Information Engineering, Zhejiang University of Technology, with a major in Communication Engineering. In the same year, I was admitted to Zhejiang University for my master's program.
+</p>
+
+<h2>Research Interest</h2>
+
+<p>
+My primary research focuses are on <strong>Large Language Model</strong> and <strong>Reinforcement Learning</strong>.
+</p>
+
+<h2>Publications</h2>
+<ul id="publications-list">
+<!-- Publications will be loaded dynamically from publications.js -->
+</ul>
+
+</div>
+
 </body>
 </html>
-```
