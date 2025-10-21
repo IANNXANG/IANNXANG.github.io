@@ -1,7 +1,7 @@
 const publications = [
     {
         title: "Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning",
-        authors: "Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Jiale Zhao, Jingwen Yang, Jianwei Lv, Kongcheng Zhang, Yihe Zhou, Hengtong Lu, Wei Chen, Yan Xie, Mingli Song",
+        authors: "Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Wei Chen, Yan Xie, Mingli Song",
         venue: "arXiv preprint arXiv:2508.16949, 2025",
         arxiv: "https://arxiv.org/abs/2508.16949",
         code: "https://github.com/IANNXANG/RuscaRL"
