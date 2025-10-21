@@ -51,7 +51,7 @@ function renderPublications() {
             <li>
                 <strong>${pub.title}</strong><br/>
                 ${highlightedAuthors}<br/>
-                <em>${pub.venue}</em><br/>
+                ${pub.venue}<br/>
                 `;
         
         // Add links in the format [arXiv] [Code] or [Paper] [arXiv] [Code]
