@@ -3,13 +3,16 @@ const publications = [
         title: "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
         authors: "Sunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen",
         venue: "arXiv preprint arXiv:2601.08430, 2026",
-        arxiv: "https://arxiv.org/abs/2601.08430"
+        arxiv: "https://arxiv.org/abs/2601.08430",
+        code: "https://github.com/teqkilla/RubricHub",
+        data: "https://huggingface.co/datasets/sojuL/RubricHub_v1"
     },
     {
         title: "Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instruction Following",
         authors: "Kongcheng Zhang, Qi Yao, Shunyu Liu, Wenjian Zhang, Min Cen, Yang Zhou, Wenkai Fang, Yiru Zhao, Baisheng Lai, Mingli Song",
         venue: "arXiv preprint arXiv:2512.23457, 2025",
-        arxiv: "https://arxiv.org/abs/2512.23457"
+        arxiv: "https://arxiv.org/abs/2512.23457",
+        code: "https://github.com/sastpg/HIR"
     },
     {
         title: "Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning",
