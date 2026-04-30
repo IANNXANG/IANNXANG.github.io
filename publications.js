@@ -2,7 +2,7 @@ const publications = [
     {
         title: "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
         authors: "Sunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen",
-        venue: "arXiv preprint arXiv:2601.08430, 2026",
+        venue: "Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2026",
         arxiv: "https://arxiv.org/abs/2601.08430",
         code: "https://github.com/teqkilla/RubricHub",
         data: "https://huggingface.co/datasets/sojuL/RubricHub_v1"
@@ -10,14 +10,14 @@ const publications = [
     {
         title: "Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instruction Following",
         authors: "Kongcheng Zhang, Qi Yao, Shunyu Liu, Wenjian Zhang, Min Cen, Yang Zhou, Wenkai Fang, Yiru Zhao, Baisheng Lai, Mingli Song",
-        venue: "arXiv preprint arXiv:2512.23457, 2025",
+        venue: "International Conference on Machine Learning (<strong>ICML</strong>), 2026",
         arxiv: "https://arxiv.org/abs/2512.23457",
         code: "https://github.com/sastpg/HIR"
     },
     {
         title: "Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning",
         authors: "Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Wei Chen, Yan Xie, Mingli Song",
-        venue: "arXiv preprint arXiv:2508.16949, 2025",
+        venue: "International Conference on Machine Learning (<strong>ICML</strong>), 2026",
         arxiv: "https://arxiv.org/abs/2508.16949",
         code: "https://github.com/IANNXANG/RuscaRL"
     },
@@ -32,7 +32,7 @@ const publications = [
     {
         title: "SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data",
         authors: "Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng Zhang, Tongya Zheng, Kaixuan Chen, Mingli Song, Dacheng Tao",
-        venue: "Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025",
         arxiv: "https://arxiv.org/abs/2505.20347",
         code: "https://github.com/wantbook-book/SeRL"
     },
