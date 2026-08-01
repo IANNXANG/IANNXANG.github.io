@@ -130,6 +130,94 @@ li {
     font-weight: normal;
 }
 
+#publications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.1em;
+}
+
+.publication-card {
+    display: grid;
+    grid-template-columns: minmax(220px, 255px) minmax(0, 1fr);
+    gap: 1.25em;
+    align-items: center;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid #e1e6ed;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(34, 75, 141, 0.07);
+}
+
+.publication-figure-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border: 1px solid #e7eaf0;
+    border-radius: 8px;
+    background: #fafbfd;
+}
+
+.publication-figure {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.publication-figure-link:hover {
+    border-bottom: 1px solid #e7eaf0;
+}
+
+.publication-figure-link:hover .publication-figure {
+    transform: scale(1.025);
+}
+
+.publication-title {
+    display: inline-block;
+    margin-bottom: 0.45em;
+    font-size: 1.08em;
+    line-height: 1.35;
+}
+
+.publication-authors,
+.publication-venue {
+    line-height: 1.45;
+}
+
+.publication-venue {
+    margin-top: 0.25em;
+    color: #555;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    margin-top: 0.75em;
+}
+
+.publication-link {
+    padding: 0.2em 0.65em;
+    border: 1px solid #cbd5e3;
+    border-radius: 999px;
+    background: #f7f9fc;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.82em;
+    line-height: 1.4;
+}
+
+.publication-link:hover {
+    border: 1px solid #527bbd;
+    background: #eef3fa;
+}
+
 @media (max-width: 768px) {
     body {
         padding-left: 20px;
@@ -154,6 +242,25 @@ li {
 
     .experience-list {
         width: 100%;
+    }
+
+    .experience-row {
+        grid-template-columns: 1fr;
+        row-gap: 0.15em;
+    }
+
+    .publication-card {
+        grid-template-columns: 1fr;
+        gap: 0.9em;
+        padding: 0.8em;
+    }
+
+    .publication-figure-link {
+        aspect-ratio: 16 / 9;
+    }
+
+    .publication-figure {
+        max-width: none;
     }
 }
 </style>
@@ -195,7 +302,7 @@ I am a master's student in the Advanced Computing and Emerging Service (ACES) La
 </p>
 
 <p>
-My research interests include <strong>reinforcement learning</strong>, <strong>agentic LLMs</strong>, <strong>VLA</strong>, and <strong>embodied intelligence</strong>.
+My research interests include <strong>reinforcement learning</strong>, <strong>agentic LLMs</strong>, and <strong>embodied intelligence</strong>.
 </p>
 
 <p>
@@ -231,11 +338,6 @@ Please feel free to contact me if you are interested in my research :)
 <ul id="publications-list">
 <!-- Publications will be loaded dynamically from publications.js -->
 </ul>
-
-<!-- ClustrMaps Visitor Statistics Map -->
-<div style="margin-top: 40px; margin-bottom: 40px; text-align: center;">
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=c4c4c4&w=380&t=tt&d=OqO7GMQxjmCttG8xUHjcW0biPbYnixjS6UqxScLOO-U&co=ffffff&ct=808080&cmo=4182d1&cmn=dc3545"></script>
-</div>
 
 </div>
 
