@@ -9,6 +9,14 @@ const publications = [
         image: "assets/publications/spatialcli.webp"
     },
     {
+        title: "Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instruction Following",
+        authors: "Kongcheng Zhang, Qi Yao, Shunyu Liu, Wenjian Zhang, Min Cen, Yang Zhou, Wenkai Fang, Yiru Zhao, Baisheng Lai, Mingli Song",
+        venue: "International Conference on Machine Learning (<strong>ICML</strong>), 2026",
+        arxiv: "https://arxiv.org/abs/2512.23457",
+        code: "https://github.com/sastpg/HIR",
+        image: "assets/publications/hir.webp"
+    },
+    {
         title: "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
         authors: "Sunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen",
         venue: "Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2026",
@@ -16,14 +24,6 @@ const publications = [
         code: "https://github.com/teqkilla/RubricHub",
         data: "https://huggingface.co/datasets/sojuL/RubricHub_v1",
         image: "assets/publications/rubrichub.webp"
-    },
-    {
-        title: "Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instruction Following",
-        authors: "Kongcheng Zhang, Qi Yao, Shunyu Liu, Wenjian Zhang, Min Cen, Yang Zhou, Wenkai Fang, Yiru Zhao, Baisheng Lai, Mingli Song",
-        venue: "International Conference on Machine Learning (<strong>ICML</strong>), 2026",
-        arxiv: "https://arxiv.org/abs/2512.23457",
-        code: "https://github.com/sastpg/HIR",
-        image: "assets/publications/hir.webp"
     },
     {
         title: "Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning",
