@@ -1,5 +1,14 @@
 const publications = [
     {
+        title: "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+        authors: "Zixuan Huang, Yang Zhou, Kaixuan Wang, Guli Zhang, Hongyan Xie, Yakun Zhu, Hao Geng, Xiaozhi Chen, Yikun Ban, Deqing Wang",
+        venue: "arXiv preprint arXiv:2608.01755, 2026",
+        arxiv: "https://arxiv.org/abs/2608.01755",
+        code: "https://github.com/hzx122/DEFT-RLVR",
+        data: "https://huggingface.co/datasets/hzxllll/AD-MCQ",
+        image: "assets/publications/deft-rlvr.webp"
+    },
+    {
         title: "SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them",
         authors: "Yang Zhou, Zixuan Huang, Sunzhu Li, Zhuo Yang, Chen Zhang, Shunian Chen, Caijun Yan, Jianyao Xu, Shunyu Liu, Weijie Fu, Peiliang Li, Xiaozhi Chen, Yuxiang Cai",
         venue: "arXiv preprint arXiv:2607.27703, 2026",
