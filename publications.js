@@ -1,5 +1,12 @@
 const publications = [
     {
+        title: "REVEAL: A Rubric-Guided Agent for Explicit Evidence Sufficiency Verification in Long-Video Question Answering",
+        authors: "Caijun Yan, Yang Zhou, Meixing Shi, Haoran Sun, Yichen Li, Yuxiang Cai, Yankai Jiang",
+        venue: "arXiv preprint arXiv:2608.08612, 2026",
+        arxiv: "https://arxiv.org/abs/2608.08612",
+        image: "assets/publications/reveal.webp"
+    },
+    {
         title: "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
         authors: "Zixuan Huang, Yang Zhou, Kaixuan Wang, Guli Zhang, Hongyan Xie, Yakun Zhu, Hao Geng, Xiaozhi Chen, Yikun Ban, Deqing Wang",
         venue: "arXiv preprint arXiv:2608.01755, 2026",
