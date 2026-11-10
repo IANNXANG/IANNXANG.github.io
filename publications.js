@@ -1,5 +1,13 @@
 const publications = [
     {
+        title: "NINJA: A Navigator–Inspector Joint Architecture for Context-Efficient Issue Localization",
+        authors: "Wenkai Fang, Shunyu Liu, Wei Luo, Zihao Wu, Yang Zhou, Tongya Zheng, Wotao Yin, Jialie Shen, Leszek Rutkowski, Mingli Song, Dacheng Tao",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026",
+        arxiv: "https://arxiv.org/abs/2611.10027",
+        code: "https://github.com/wantbook-book/NINJA",
+        image: "assets/publications/ninja.webp"
+    },
+    {
         title: "REVEAL: A Rubric-Guided Agent for Explicit Evidence Sufficiency Verification in Long-Video Question Answering",
         authors: "Caijun Yan, Yang Zhou, Meixing Shi, Haoran Sun, Yichen Li, Yuxiang Cai, Yankai Jiang",
         venue: "arXiv preprint arXiv:2608.08612, 2026",
