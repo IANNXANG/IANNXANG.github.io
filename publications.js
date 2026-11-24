@@ -1,5 +1,13 @@
 const publications = [
     {
+        title: "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+        authors: "Zixuan Huang, Yang Zhou, Guli Zhang, Sunzhu Li, Hongyan Xie, Zehao Chen, Fuzhen Zhuang, Kaixuan Wang, Xiaozhi Chen, Yikun Ban, Deqing Wang",
+        venue: "arXiv preprint arXiv:2611.26414, 2026",
+        arxiv: "https://arxiv.org/abs/2611.26414",
+        code: "https://github.com/hzx122/ZeroVLN",
+        image: "assets/publications/zerovln.webp"
+    },
+    {
         title: "NINJA: A Navigator–Inspector Joint Architecture for Context-Efficient Issue Localization",
         authors: "Wenkai Fang, Shunyu Liu, Wei Luo, Zihao Wu, Yang Zhou, Tongya Zheng, Wotao Yin, Jialie Shen, Leszek Rutkowski, Mingli Song, Dacheng Tao",
         venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026",
