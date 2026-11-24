@@ -121,8 +121,18 @@ li {
 }
 
 .experience-company {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
     font-weight: bold;
     color: #333;
+}
+
+.experience-logo {
+    flex-shrink: 0;
+    width: 1.15em;
+    height: 1.15em;
+    object-fit: contain;
 }
 
 .experience-time {
@@ -132,7 +142,9 @@ li {
 }
 
 .experience-description {
-    margin: 0.35em 0 0;
+    margin: 0.5em 0 0;
+    padding: 0.15em 0 0.15em 0.85em;
+    border-left: 3px solid #cbd5e3;
     line-height: 1.5;
     color: #555;
 }
@@ -280,27 +292,27 @@ Please feel free to contact me if you are interested in my research :)
 <ul class="experience-list">
     <li class="experience-item">
         <div class="experience-row">
-            <span class="experience-company">Zhuoyu Technology</span>
+            <span class="experience-company"><img class="experience-logo" src="assets/logos/zhuoyu.png" alt="" aria-hidden="true" />Zhuoyu Technology</span>
             <span class="experience-role">Research Intern</span>
             <span class="experience-time">Apr 2026 &ndash; Present</span>
         </div>
-        <p class="experience-description">Exploring LLM agents for embodied intelligence and pretraining general-purpose multimodal embodied foundation models.</p>
+        <p class="experience-description">Researching robot-use agents (RUA) and pretraining general-purpose multimodal embodied foundation models.</p>
     </li>
     <li class="experience-item">
         <div class="experience-row">
-            <span class="experience-company">ByteDance-Seed</span>
+            <span class="experience-company"><img class="experience-logo" src="assets/logos/bytedance.png" alt="" aria-hidden="true" />ByteDance-Seed</span>
             <span class="experience-role">Research Intern</span>
             <span class="experience-time">Nov 2025 &ndash; Apr 2026</span>
         </div>
-        <p class="experience-description">Working on long-horizon agentic RL, credit assignment, and reward modeling for Doubao's open-ended search and DeepResearch.</p>
+        <p class="experience-description">Researching reward modeling, long-horizon agentic RL, context management, and credit assignment to improve Doubao's web search and DeepResearch capabilities.</p>
     </li>
     <li class="experience-item">
         <div class="experience-row">
-            <span class="experience-company">Li Auto</span>
+            <span class="experience-company"><img class="experience-logo" src="assets/logos/li-auto.png" alt="" aria-hidden="true" />Li Auto</span>
             <span class="experience-role">Research Intern</span>
             <span class="experience-time">May 2025 &ndash; Nov 2025</span>
         </div>
-        <p class="experience-description">Research on rubrics for large language models.</p>
+        <p class="experience-description">Researching rubric-based evaluation and reinforcement learning for large language models.</p>
     </li>
 </ul>
 
